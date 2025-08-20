@@ -8,6 +8,7 @@
             "title": "modbus OPC UA server",
             "description": "MODBUS OPC UA server implements MODBUS TCP protocol and exposes COIL, DI, HREG and IREG registers via OPC UA interface",
             "categories": [ "MODBUS", "OPC UA" ],
+            "logo": "https://raw.githubusercontent.com/x-tensive/portainer-templates/refs/heads/main/logo.svg",
             "platform": "linux",
             "image": "xtensive/dpa.ua.modbus:latest",
             "command": "--dev:127.0.0.1 --nocert",
