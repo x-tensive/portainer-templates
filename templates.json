@@ -1,0 +1,21 @@
+{
+    "version": "1",
+    "templates": [
+        {
+            "type": 1,
+            "name": "modbus OPC UA server",
+            "title": "modbus OPC UA server",
+            "description": "MODBUS OPC UA server implements MODBUS TCP protocol and exposes COIL, DI, HREG and IREG registers via OPC UA interface",
+            "categories": [ "MODBUS", "OPC UA" ],
+            "platform": "linux",
+            "image": "xtensive/dpa.ua.modbus:latest",
+            "ports": [ "4840/tcp" ],
+            "volumes": [
+                {
+                    "container": "/dpa/instances"
+                }
+            ],
+            "restart_policy": "always"
+        }
+    ]
+}
