@@ -10,7 +10,7 @@
             "categories": [ "MODBUS", "OPC UA" ],
             "platform": "linux",
             "image": "xtensive/dpa.ua.modbus:latest",
-            "command": "/dpa/dpa.ua.modbus --dev:127.0.0.1 --nocert",
+            "command": "--dev:127.0.0.1 --nocert",
             "ports": [ "4840:4840/tcp" ],
             "volumes": [
                 {
