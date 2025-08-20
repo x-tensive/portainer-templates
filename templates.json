@@ -11,11 +11,17 @@
             "logo": "https://raw.githubusercontent.com/x-tensive/portainer-templates/refs/heads/main/logo.png",
             "platform": "linux",
             "image": "xtensive/dpa.ua.modbus:latest",
-            "command": "--dev:127.0.0.1 --nocert",
+            "command": "--dev:${DEVICE_IP} --nocert",
             "ports": [ "4840:4840/tcp" ],
             "volumes": [
                 {
                     "container": "/dpa/instances"
+                }
+            ],
+            "env": [
+                {
+                    "name": "DEVICE_IP",
+                    "label": "modbus device IP address"
                 }
             ],
             "restart_policy": "always"
