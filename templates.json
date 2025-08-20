@@ -11,7 +11,7 @@
             "logo": "https://raw.githubusercontent.com/x-tensive/portainer-templates/refs/heads/main/logo.png",
             "platform": "linux",
             "image": "xtensive/dpa.ua.modbus:latest",
-            "command": "--dev:{{ deviceIp }} --nocert",
+            "command": "--dev:127.0.0.1 --nocert",
             "ports": [ "4840:4840/tcp" ],
             "volumes": [
                 {
