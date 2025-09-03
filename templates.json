@@ -49,7 +49,18 @@
                 },
                 {
                     "name": "DPA_DEV_TLS",
-                    "label": "enable secured TLS communication"
+                    "label": "enable secured TLS communication",
+                    "select": [
+                        {
+                            "text": "yes",
+                            "value": "yes"
+                        },
+                        {
+                            "text": "no",
+                            "value": "no",
+                            "default": true
+                        }
+                    ]
                 },
                 {
                     "name": "DPA_DEV_PASSWORD",
