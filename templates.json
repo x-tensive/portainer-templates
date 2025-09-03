@@ -1,7 +1,8 @@
 {
-    "version": "2",
+    "version": "3",
     "templates": [
         {
+            "id": 1,
             "type": 1,
             "name": "modbus",
             "title": "modbus OPC UA server",
@@ -26,6 +27,7 @@
             "restart_policy": "always"
         },
         {
+            "id": 2,
             "type": 1,
             "name": "s7plus-beta",
             "title": "s7plus OPC UA server BETA",
