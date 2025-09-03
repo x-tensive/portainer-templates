@@ -46,12 +46,12 @@
                 {
                     "name": "DPA_DEV",
                     "label": "Device ip",
-                    "description": "s7 device ip and port (optionally), like \"192.168.0.1\" or \"192.168.0.1:102\""
+                    "note": "s7 device ip and port (optionally), like \"192.168.0.1\" or \"192.168.0.1:102\""
                 },
                 {
                     "name": "DPA_DEV_TLS",
                     "label": "Tls",
-                    "description": "secured communication with tls",
+                    "note": "secured communication with tls",
                     "select": [
                         {
                             "text": "yes",
@@ -67,7 +67,7 @@
                 {
                     "name": "DPA_DEV_PASSWORD",
                     "label": "Password",
-                    "description": "controller access password",
+                    "note": "controller access password; leave empty to connect without password",
                     "default": ""
                 }
             ],
