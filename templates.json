@@ -45,11 +45,13 @@
             "env": [
                 {
                     "name": "DPA_DEV",
-                    "label": "device IP address"
+                    "label": "Device ip",
+                    "description": "s7 device ip and port (optionally), like \"192.168.0.1\" or \"192.168.0.1:102\""
                 },
                 {
                     "name": "DPA_DEV_TLS",
-                    "label": "enable secured TLS communication",
+                    "label": "Tls",
+                    "description": "secured communication with tls",
                     "select": [
                         {
                             "text": "yes",
@@ -64,7 +66,8 @@
                 },
                 {
                     "name": "DPA_DEV_PASSWORD",
-                    "label": "controller access password",
+                    "label": "Password",
+                    "description": "controller access password",
                     "default": ""
                 }
             ],
