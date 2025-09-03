@@ -68,7 +68,7 @@
                     "name": "DPA_DEV_PASSWORD",
                     "label": "Password",
                     "note": "controller access password; leave empty to connect without password",
-                    "set": ""
+                    "default": ""
                 }
             ],
             "restart_policy": "always"
