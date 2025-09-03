@@ -29,8 +29,8 @@
         {
             "id": 2,
             "type": 1,
-            "name": "s7plus beta",
-            "title": "s7plus OPC UA server",
+            "name": "s7plus-beta",
+            "title": "s7plus OPC UA server BETA",
             "description": "s7plus OPC UA server provides an implementation of the S7COMMPLUS protocol, enabling communication with Siemens S7-1200 and S7-1500 controllers.",
             "categories": [ "S7PLUS", "OPC UA" ],
             "logo": "https://raw.githubusercontent.com/x-tensive/portainer-templates/refs/heads/main/logo.png",
