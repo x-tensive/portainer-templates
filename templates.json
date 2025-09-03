@@ -64,7 +64,8 @@
                 },
                 {
                     "name": "DPA_DEV_PASSWORD",
-                    "label": "controller access password"
+                    "label": "controller access password",
+                    "default": ""
                 }
             ],
             "restart_policy": "always"
