@@ -25,6 +25,38 @@
                 }
             ],
             "restart_policy": "always"
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "name": "s7plus beta",
+            "title": "s7plus OPC UA server",
+            "description": "s7plus OPC UA server provides an implementation of the S7COMMPLUS protocol, enabling communication with Siemens S7-1200 and S7-1500 controllers.",
+            "categories": [ "S7PLUS", "OPC UA" ],
+            "logo": "https://raw.githubusercontent.com/x-tensive/portainer-templates/refs/heads/main/logo.png",
+            "platform": "linux",
+            "image": "xtensive/dpa.ua.s7plus:main",
+            "ports": [ "4840:4840/tcp" ],
+            "volumes": [
+                {
+                    "container": "/dpa/instances"
+                }
+            ],
+            "env": [
+                {
+                    "name": "DPA_DEV",
+                    "label": "device IP address"
+                },
+                {
+                    "name": "DPA_DEV_TLS",
+                    "label": "enable secured TLS communication"
+                },
+                {
+                    "name": "DPA_DEV_PASSWORD",
+                    "label": "controller access password"
+                }
+            ],
+            "restart_policy": "always"
         }
     ]
 }
